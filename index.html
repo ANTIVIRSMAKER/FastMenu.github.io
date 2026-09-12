@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100506">
+  <meta name="description" content="FastMenu — a focused modding archive for game tinkerers.">
+  <title>FastMenu — game modding archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="verse-wall" aria-hidden="true">
+    <span>“I can do all things through Christ which strengtheneth me.”</span>
+    <span>“The Lord is my strength and my shield.”</span>
+    <span>“Be strong and of a good courage; be not afraid.”</span>
+    <span>“The light shineth in darkness.”</span>
+  </div>
+
+  <header class="topbar">
+    <a class="wordmark" href="index.html" aria-label="FastMenu home">
+      <span class="wordmark-mark">FM</span>
+      <span>FAST<span class="accent">MENU</span></span>
+    </a>
+    <div class="topbar-right">
+      <span class="status"><i></i> archive online</span>
+      <button class="sound-toggle" type="button" aria-pressed="false">
+        <span class="sound-icon" aria-hidden="true">◖</span>
+        <span class="sound-label">verse audio off</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span>001</span> private build / game modding archive</p>
+        <h1 id="hero-title">Make your<br><em>own rules.</em></h1>
+        <p class="intro">A small, sharp archive for the people who open the game files and see what happens next.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://guns.lol/fastmenu" target="_blank" rel="noreferrer">
+            <span>my guns</span><b>↗</b>
+          </a>
+          <a class="button button-ghost" href="#archive">browse archive <b>↓</b></a>
+        </div>
+      </div>
+      <div class="hero-sigil" aria-hidden="true">
+        <div class="sigil-ring ring-one"></div>
+        <div class="sigil-ring ring-two"></div>
+        <div class="sigil-cross">+</div>
+        <span class="sigil-label label-top">FM / 24</span>
+        <span class="sigil-label label-bottom">NO LIMITS</span>
+      </div>
+    </section>
+
+    <section class="archive" id="archive" aria-labelledby="archive-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"><span>002</span> the archive</p>
+          <h2 id="archive-title">Pick a lane.</h2>
+        </div>
+        <p class="section-note">Tools, tweaks, and inspiration for your next run.</p>
+      </div>
+      <div class="archive-grid">
+        <a class="archive-card featured" href="https://guns.lol/fastmenu" target="_blank" rel="noreferrer">
+          <span class="card-index">00 / personal loadout</span>
+          <span class="card-icon">↗</span>
+          <h3>My Guns</h3>
+          <p>See the current loadout, links, and things worth keeping.</p>
+          <span class="card-link">open profile</span>
+        </a>
+        <a class="archive-card" href="#signal">
+          <span class="card-index">01 / workbench</span>
+          <span class="card-icon">⌁</span>
+          <h3>Mod tools</h3>
+          <p>Small utilities for bigger ideas. Coming into focus.</p>
+          <span class="card-link">coming soon</span>
+        </a>
+        <a class="archive-card" href="#signal">
+          <span class="card-index">02 / field notes</span>
+          <span class="card-icon">⊙</span>
+          <h3>Game guides</h3>
+          <p>Routes, configs, and notes from the other side of vanilla.</p>
+          <span class="card-link">coming soon</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="signal" id="signal" aria-label="FastMenu signal">
+      <span class="signal-mark">FM</span>
+      <p>“The light shineth in darkness; and the darkness comprehended it not.”</p>
+      <span class="signal-source">JOHN 1:5</span>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>FASTMENU / EST. 2024</span>
+    <span class="footer-center">play fair · build weird</span>
+    <span>red light, green screen <b>●</b></span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
